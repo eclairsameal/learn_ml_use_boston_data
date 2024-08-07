@@ -94,3 +94,63 @@ Code :
 ### 沒有標準化（no standardization）:
 
 [LigthGBM.ipynb](https://github.com/eclairsameal/learn_ml_use_boston_data/blob/main/LigthGBM.ipynb)
+
+## BostonHousing.csv
+
+:Attribute Information (in order):
+- CRIM     
+	per capita crime rate by town
+
+  各城鎮人均犯罪率
+- ZN       
+	proportion of residential land zoned for lots over 25,000 sq.ft.
+
+  面積超過 25,000 平方英尺的住宅用地比例
+- INDUS    
+	proportion of non-retail business acres per town
+
+  每個城鎮非零售商業面積的比例
+- CHAS     
+	Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+
+  查爾斯河虛擬變數（如果區域邊界為河流，則 = 1；否則為 0）
+- NOX
+  nitric oxides concentration (parts per 10 million)
+  
+	一氧化氮濃度（千萬分之一）
+- RM
+  average number of rooms per dwelling
+  
+	每套住宅的平均房間數
+- AGE
+  proportion of owner-occupied units built prior to 1940
+  
+	1940 年之前建造的自住單位的比例
+- DIS
+  weighted distances to five Boston employment centres
+  
+	到五個波士頓就業中心的加權距離
+- RAD
+  index of accessibility to radial highways
+  
+	放射狀公路可達性指數
+- TAX
+  full-value property-tax rate per $10,000
+  
+	每 10,000 美元的全額財產稅稅率
+- PTRATIO
+  pupil-teacher ratio by town
+
+按城鎮劃分的師生比
+- B
+  1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+  
+	1000(Bk - 0.63)^2 其中 Bk 是按城鎮劃分的黑人比例
+- LSTAT
+  % lower status of the population
+  
+	人口地位較低的百分比
+- MEDV
+  Median value of owner-occupied homes in $1000's
+  
+	自住房屋的中位數價值為 1000 美元
